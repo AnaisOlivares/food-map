@@ -28,6 +28,10 @@ hr {
   left: 22%;
 }
 
+.hidden {
+  display: none;
+}
+
 .square-2 {
   width: 17px;
   height: 17px;
@@ -49,4 +53,8 @@ hr {
 
 img {
   margin: 7px;
+}
+
+li {
+  list-style: none;
 }
