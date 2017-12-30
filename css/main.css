@@ -14,18 +14,18 @@ body {
 }
 
 hr {
-  width: 50%;
+  width: 75%;
   /* text-align: center; */
 }
 
 .square {
   width: 17px;
   height: 17px;
-  border: 1px solid red;
+  border: 1px solid white;
   position: relative;
   float: left;
   /* top: 17px; */
-  left: 22%;
+  left: 9%;
 }
 
 .hidden {
@@ -35,11 +35,11 @@ hr {
 .square-2 {
   width: 17px;
   height: 17px;
-  border: 1px solid red;
+  border: 1px solid white;
   position: relative;
   float: right;
   bottom: 28px;
-  right: 19%;
+  right: 5%;
   /* margin-left: 20px; */
 }
 
@@ -55,6 +55,15 @@ img {
   margin: 7px;
 }
 
+img:hover {
+  cursor: pointer;
+}
+
 li {
   list-style: none;
+}
+
+.btn {
+  background-color: #db791f;
+  color: white;
 }

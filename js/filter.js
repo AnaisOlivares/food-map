@@ -1,4 +1,4 @@
-// seleccion
+// seleccion, filtrado
 $(document).ready(function() {
   $('#filterInput').on('keyup', function() {
     var value = $(this).val().toLowerCase();
@@ -7,15 +7,19 @@ $(document).ready(function() {
     });
   });
 
-  $('img').on('mouseover', function() {
+  $('.effects').on('mouseover', function() {
     $(this).animate({'border-radius': '100px'}, 'slow');
+    // lo dejo como opción
     $(this).animate({'width': '50%'}, 'slow');
-
     $(this).css({'background': '#db791f'}, 'slow');
   });
-  $('img').on('mouseout', function() {
+  $('.effects').on('mouseout', function() {
     $(this).animate({'border-radius': '0px'}, 'slow');
     $(this).css({'background': 'none'}, 'slow');
     $(this).animate({'width': '40%'}, 'slow');
   });
+
+  // $('#hola').on('click', function() {
+  //   $(this).
+  // });
 });
