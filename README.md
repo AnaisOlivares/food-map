@@ -1,4 +1,12 @@
 ## FoodMap
+Foodmap es una web-App mediante la cual puedas encontrar los restaurantes cercanos a tí y elegir de acuerdo a tres especialidades: mexicana, marina y postres.
+
+![foodmap](https://user-images.githubusercontent.com/32288883/36261200-9cc7b16c-1231-11e8-8831-9a240c40a91b.png)
+
+## Desarrollado para
+[Laboratoria](http://laboratoria.la)
+
+
 ### Introducción
 > * Este proyecto consiste en crear una web-App mediante la cual puedas encontrar los restaurantes cercanos a tí.
 
